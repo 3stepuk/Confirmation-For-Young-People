@@ -1,0 +1,7 @@
+{
+  "name": "Confirmation for Young People — Catholic Preparation",
+  "description": "An interactive Catholic confirmation catechism and preparation app for young people aged 11–16, with 12 structured lessons, memory gap drills, Q&A mastery, rite guide, rule of life, and local progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

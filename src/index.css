@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0F0F0F;
+    color: #D1D5DB;
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: "Cinzel", Georgia, serif;
+    letter-spacing: 0.04em;
+  }
+
+  .font-serif-heading {
+    font-family: Georgia, "Cormorant Garamond", serif;
+  }
+
+  .font-scripture {
+    font-family: "Cormorant Garamond", Georgia, serif;
+  }
+
+  .small-caps {
+    font-variant: small-caps;
+  }
+
+  /* Custom scrollbar matching Artistic Flair dark theme */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0F0F0F;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2A2A2A;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E8873B;
+  }
+}
+
+/* Artistic Flair theme utility tokens */
+.artistic-glow {
+  box-shadow: 0 0 20px rgba(232, 135, 59, 0.3);
+}
+
+.artistic-glow-subtle {
+  box-shadow: 0 0 12px rgba(232, 135, 59, 0.15);
+}
