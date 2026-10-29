@@ -7,6 +7,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "The Holy Spirit, Lord and Giver of Life",
     purpose: "The Holy Spirit is truly God, the third Person of the Most Holy Trinity, who gives life and makes us holy.",
     remember: "The third Person of the Most Holy Trinity, true God with the Father and the Son.",
+    rememberGaps: {
+      id: 'remember-1',
+      sentenceWithBlanks: "The [third Person] of the Most Holy Trinity, [true God] with the Father and the Son.",
+      gaps: [
+        {
+          index: 0,
+          word: "third Person",
+          options: ["third Person", "first Person", "an angel", "a created spirit"],
+          hint: "The Holy Trinity has Father, Son and Holy Spirit."
+        },
+        {
+          index: 1,
+          word: "true God",
+          options: ["true God", "a holy prophet", "a created force", "an angel"],
+          hint: "Not an angel or a force: he is God."
+        },
+      ]
+    },
     teachingParagraphs: [
       "God has revealed himself as the Most Holy Trinity: Father, Son and Holy Spirit. There are not three gods. There is one God, and within the one divine nature there are three distinct, equal and eternal divine Persons. The Father is God, the Son is God and the Holy Spirit is God. We worship and adore the Holy Spirit with the Father and the Son.",
       "Sometimes people speak about the Holy Spirit as though he were merely a warm feeling, an energy or a symbol like the dove or fire. The symbols are helpful, but the Holy Spirit is not a thing. He is a divine Person, who knows and loves, who guides the Church, and who works within us. Because he is God, we can pray to him, adore him and ask him for help.",
@@ -49,6 +67,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "The Promise and Pentecost",
     purpose: "Jesus promised the Holy Spirit, and at Pentecost the Apostles received strength to proclaim him courageously.",
     remember: "It gives a special outpouring of the Holy Spirit to strengthen us as witnesses of Christ.",
+    rememberGaps: {
+      id: 'remember-2',
+      sentenceWithBlanks: "It gives a special outpouring of the [Holy Spirit] to strengthen us as [witnesses] of Christ.",
+      gaps: [
+        {
+          index: 0,
+          word: "Holy Spirit",
+          options: ["Holy Spirit", "the Father", "an angel", "the Church"],
+          hint: "The third Person, promised by Christ."
+        },
+        {
+          index: 1,
+          word: "witnesses",
+          options: ["witnesses", "servants of the Law", "judges", "kings"],
+          hint: "We are sent to bear witness to Christ."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Through the prophets, God promised that his Spirit would be poured out on his people. Jesus taught his disciples about the Holy Spirit, calling him the Advocate and the Spirit of truth. He promised that the Spirit would guide them, teach them and remain with them.",
       "After the death and Resurrection of Jesus, the Apostles knew he was Lord. Yet they had also been frightened and uncertain. Before his Ascension, Jesus told them to wait for the promised gift: they would receive power when the Holy Spirit came upon them, and they would become his witnesses.",
@@ -91,6 +127,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "The Sacraments of Christian Initiation",
     purpose: "Baptism, Confirmation and the Holy Eucharist belong together as the sacraments of Christian initiation.",
     remember: "It strengthens and brings to completion the grace given in Baptism.",
+    rememberGaps: {
+      id: 'remember-3',
+      sentenceWithBlanks: "It strengthens and brings to completion the [grace] given in [Baptism].",
+      gaps: [
+        {
+          index: 0,
+          word: "Baptism",
+          options: ["Baptism", "Confirmation", "the Eucharist", "Matrimony"],
+          hint: "The gateway to the sacraments."
+        },
+        {
+          index: 1,
+          word: "grace",
+          options: ["grace", "nature", "knowledge", "health"],
+          hint: "God's own life in the soul."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Christ gave his Church seven sacraments, and three of them form the one beginning of Christian life: Baptism, Confirmation and the Holy Eucharist. These are called the sacraments of Christian initiation. They are not three unrelated ceremonies.",
       "At Baptism, God forgives sin, gives sanctifying grace, makes us his adopted children and unites us to Christ and his Church. Baptism is already a real and complete sacrament. It leaves a permanent spiritual mark: you already belong to Christ.",
@@ -135,6 +189,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "Confirmation in Scripture and Tradition",
     purpose: "Christ instituted Confirmation; the Church recognises its apostolic pattern in prayer, the laying on of hands and the gift of the Holy Spirit.",
     remember: "The Apostles prayed and laid hands upon the baptised so they might receive the Holy Spirit.",
+    rememberGaps: {
+      id: 'remember-4',
+      sentenceWithBlanks: "The Apostles prayed and [laid hands] upon the baptised so they might receive the [Holy Spirit].",
+      gaps: [
+        {
+          index: 0,
+          word: "laid hands",
+          options: ["laid hands", "blessed the bread", "washed their feet", "sent letters"],
+          hint: "What the Apostles did over the baptised."
+        },
+        {
+          index: 1,
+          word: "Holy Spirit",
+          options: ["Holy Spirit", "the Law", "the Temple", "the ark"],
+          hint: "Whom they were to receive."
+        },
+      ]
+    },
     teachingParagraphs: [
       "When Catholics say a sacrament was instituted by Christ, we mean that it belongs to the saving work he gave his Church, not that the Church may invent whatever ceremonies she wishes. The Church receives the sacraments from Christ and faithfully celebrates them.",
       "The Acts of the Apostles gives us important evidence for Confirmation. In Samaria, people had already received Baptism. Peter and John came to them, prayed for them and laid hands on them, and they received the Holy Spirit. See Acts 8:14–17. In Acts 19:5–6, Saint Paul also lays hands on baptised disciples and the Holy Spirit comes upon them.",
@@ -176,6 +248,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "The Minister, Matter and Form",
     purpose: "In the Latin Church, the bishop is the ordinary minister of Confirmation; the sacrament is conferred through anointing with chrism and the prescribed words.",
     remember: "Anointing the forehead with sacred chrism by the laying on of the hand, using the sacramental words.",
+    rememberGaps: {
+      id: 'remember-5',
+      sentenceWithBlanks: "Anointing the [forehead] with sacred [chrism] by the laying on of the hand, using the sacramental words.",
+      gaps: [
+        {
+          index: 0,
+          word: "chrism",
+          options: ["chrism", "water", "oil of catechumens", "incense"],
+          hint: "The oil blessed by the bishop."
+        },
+        {
+          index: 1,
+          word: "forehead",
+          options: ["forehead", "hands", "chest", "lips"],
+          hint: "Where the anointing is given."
+        },
+      ]
+    },
     teachingParagraphs: [
       "The sacraments are not religious performances. They are acts of Jesus Christ celebrated through his Church. That is why the Church is careful about who celebrates them and what words and signs are used. The words, signs and minister matter because Christ has entrusted the sacraments to his Church.",
       "In the Latin Church, the ordinary minister of Confirmation is the bishop. The bishop succeeds the Apostles and his ministry shows the close connection between Confirmation and the apostolic Church. When the bishop confirms, we can see that our faith is not something invented only by our parish or generation.",
@@ -217,6 +307,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "Anointing, Chrism and the Spiritual Seal",
     purpose: "Anointing with sacred chrism shows that the Holy Spirit consecrates us to Christ and marks us permanently as his own.",
     remember: "A permanent seal of the Holy Spirit that consecrates us to Christ and cannot be repeated.",
+    rememberGaps: {
+      id: 'remember-6',
+      sentenceWithBlanks: "A permanent [seal] of the Holy Spirit that consecrates us to Christ and [cannot be repeated].",
+      gaps: [
+        {
+          index: 0,
+          word: "seal",
+          options: ["seal", "promise", "memory", "habit"],
+          hint: "A mark that is permanent."
+        },
+        {
+          index: 1,
+          word: "cannot be repeated",
+          options: ["cannot be repeated", "may be repeated", "is repeated yearly", "is optional"],
+          hint: "Confirmation is received once."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Anointing has a long history in Sacred Scripture. Kings and priests were anointed for service to God and his people.",
       "The name Christ means “Anointed One”. Jesus is the Messiah, the one filled with the Holy Spirit, who fulfils all the promises of God.",
@@ -260,6 +368,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "The Effects and Character of Confirmation",
     purpose: "Confirmation deepens baptismal grace, binds us more closely to the Church and gives special strength to spread and defend the faith.",
     remember: "A special outpouring of the Holy Spirit, deeper baptismal grace, a closer bond with the Church and strength for witness.",
+    rememberGaps: {
+      id: 'remember-7',
+      sentenceWithBlanks: "A special [outpouring] of the Holy Spirit, deeper baptismal grace, a closer [bond with the Church] and strength for witness.",
+      gaps: [
+        {
+          index: 0,
+          word: "outpouring",
+          options: ["outpouring", "reminder", "warning", "command"],
+          hint: "A pouring out of the Spirit."
+        },
+        {
+          index: 1,
+          word: "bond with the Church",
+          options: ["bond with the Church", "distance from the world", "freedom from the sacraments", "a private faith"],
+          hint: "We are joined more closely to her."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Confirmation is not simply a symbol of commitment. It truly gives grace, because Christ acts through the sacrament.",
       "The Holy Spirit roots us more deeply in our identity as children of the Father, unites us more firmly to Jesus Christ and increases his gifts within us.",
@@ -302,6 +428,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "The Seven Gifts of the Holy Spirit",
     purpose: "The seven gifts make us ready to recognise and follow the promptings of the Holy Spirit.",
     remember: "Wisdom, understanding, counsel, fortitude, knowledge, piety and fear of the Lord.",
+    rememberGaps: {
+      id: 'remember-8',
+      sentenceWithBlanks: "Wisdom, understanding, counsel, [fortitude], knowledge, [piety] and fear of the Lord.",
+      gaps: [
+        {
+          index: 0,
+          word: "fortitude",
+          options: ["fortitude", "patience", "gentleness", "temperance"],
+          hint: "The gift that gives courage."
+        },
+        {
+          index: 1,
+          word: "piety",
+          options: ["piety", "prudence", "justice", "counsel"],
+          hint: "The gift of reverence for God."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Isaiah speaks of the Spirit resting upon the promised Messiah. The Church names seven gifts of the Holy Spirit: wisdom, understanding, counsel, fortitude, knowledge, piety and fear of the Lord. These gifts are present in fullness in Jesus Christ and help us become more like him.",
       "Wisdom helps us love what matters most and judge things in God’s light. Understanding helps us enter more deeply into the truths of faith. Counsel helps us recognise a good decision and act rightly when circumstances are confusing.",
@@ -345,6 +489,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "Virtues, Fruits and Charisms",
     purpose: "The Holy Spirit makes us holy through the virtues, forms good fruit in our lives and gives gifts for service.",
     remember: "Charity: every gift must be used to love God and serve others.",
+    rememberGaps: {
+      id: 'remember-9',
+      sentenceWithBlanks: "[Charity]: every gift must be used to love God and [serve others].",
+      gaps: [
+        {
+          index: 0,
+          word: "Charity",
+          options: ["Charity", "Hope", "Fear", "Wisdom"],
+          hint: "The greatest of the fruits."
+        },
+        {
+          index: 1,
+          word: "serve others",
+          options: ["serve others", "please ourselves", "avoid others", "keep to ourselves"],
+          hint: "Every gift is for them, not for us."
+        },
+      ]
+    },
     teachingParagraphs: [
       "God gives different kinds of gifts, and it helps to distinguish them. The virtues are stable habits that shape the way we live. The theological virtues are faith, hope and charity; God infuses them into our souls. The cardinal virtues are prudence, justice, fortitude and temperance.",
       "Faith helps us believe God and his revelation. Hope helps us trust his promises and desire eternal life. Charity helps us love God above all things and our neighbour for God’s sake. These are not merely personality traits. The theological virtues bring us into supernatural communion with God.",
@@ -388,6 +550,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "Renewing the Promises of Baptism",
     purpose: "Before Confirmation we renounce sin and profess again the faith we received at Baptism.",
     remember: "I reject Satan and sin, and profess the Catholic faith in the Father, Son and Holy Spirit.",
+    rememberGaps: {
+      id: 'remember-10',
+      sentenceWithBlanks: "I [reject Satan] and sin, and [profess] the Catholic faith in the Father, Son and Holy Spirit.",
+      gaps: [
+        {
+          index: 0,
+          word: "reject Satan",
+          options: ["reject Satan", "ignore the Creed", "pray in private", "keep silence"],
+          hint: "What we say we will do at the renewal."
+        },
+        {
+          index: 1,
+          word: "profess",
+          options: ["profess", "hide", "doubt", "forget"],
+          hint: "To say aloud what we believe."
+        },
+      ]
+    },
     teachingParagraphs: [
       "During the rite of Confirmation, candidates renew their baptismal promises. They reject Satan, sin and everything opposed to God. They profess faith in the Father, the Son, the Holy Spirit and the holy Catholic Church. These promises remind us that Confirmation is inseparable from Baptism.",
       "At Baptism, you were truly made a child of God and a member of Christ’s Church. That gift did not wait for you to grow older and approve it. Now, as a candidate for Confirmation, you are called to understand the faith more deeply and profess it with sincerity.",
@@ -432,6 +612,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "Witness, Spiritual Combat and Mission",
     purpose: "Confirmation strengthens us as soldiers and witnesses of Christ to resist sin and defend the truth with charity.",
     remember: "Because the Holy Spirit strengthens us to resist sin and witness steadfastly to Christ.",
+    rememberGaps: {
+      id: 'remember-11',
+      sentenceWithBlanks: "Because the Holy Spirit strengthens us to [resist sin] and [witness] steadfastly to Christ.",
+      gaps: [
+        {
+          index: 0,
+          word: "resist sin",
+          options: ["resist sin", "avoid prayer", "keep silent", "stand alone"],
+          hint: "Why the Spirit strengthens us."
+        },
+        {
+          index: 1,
+          word: "witness",
+          options: ["witness", "argue", "withdraw", "remain private"],
+          hint: "What we are strengthened to give."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Traditional Catholic catechisms speak of the confirmed Christian as a soldier of Christ. This is a strong and honourable image. It tells us that belonging to Christ calls for courage, discipline, loyalty and perseverance. It does not give us permission to be aggressive or cruel.",
       "Saint Paul describes the Christian’s struggle as spiritual combat. Our enemies are sin, the temptations of the devil and the ways of the world that oppose God. Other people are not enemies to be hated. They are neighbours whom Christ commands us to love, including when we disagree with them.",
@@ -475,6 +673,24 @@ export const LESSONS_DATA: Lesson[] = [
     title: "Preparing, Receiving and Persevering",
     purpose: "We prepare for Confirmation through faith, prayer, Confession and sincere intention, then continue living its grace throughout life.",
     remember: "Through Sunday Mass, worthy Communion, regular Confession, daily prayer, virtue, charity and service.",
+    rememberGaps: {
+      id: 'remember-12',
+      sentenceWithBlanks: "Through Sunday Mass, worthy Communion, regular [Confession], [daily prayer], virtue, charity and service.",
+      gaps: [
+        {
+          index: 0,
+          word: "Confession",
+          options: ["Confession", "Baptism", "Marriage", "Anointing"],
+          hint: "Where sins are forgiven after Baptism."
+        },
+        {
+          index: 1,
+          word: "daily prayer",
+          options: ["daily prayer", "weekly prayer", "silent reading", "occasional prayer"],
+          hint: "The ordinary habit that keeps us near him."
+        },
+      ]
+    },
     teachingParagraphs: [
       "To receive Confirmation, a person must be baptised and not already confirmed. A candidate who has reached the use of reason should be suitably instructed, properly disposed, able to renew the baptismal promises and sincerely intend to receive the sacrament. Your parish priest helps discern this with you and your family.",
       "Confirmation is Christ’s gift, not a prize for completing twelve lessons, attending a certain number of meetings or displaying perfect religious knowledge. But we still have a responsibility to prepare well, because grace is meant to be received with an open heart and lived faithfully.",
